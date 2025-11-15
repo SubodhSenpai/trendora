@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Trendora - AI-Powered Fashion Discovery App
 
-## Getting Started
+**The TikTok of Fashion Shopping** 🛍️✨
 
-First, run the development server:
+Trendora is an AI-powered fashion discovery and shopping app designed to feel like scrolling through TikTok or Instagram Reels - but for fashion! Swipe through curated outfits, discover your style, and shop instantly from top brands.
 
+## 🌟 Features
+
+- **Swipe-Based Discovery**: Vertical scroll through full-screen outfit feeds (TikTok/Reels style)
+- **AI-Powered Personalization**: Smart recommendations based on your style preferences
+- **Instant Shopping**: Shop the exact look from Zara, H&M, Myntra, and more
+- **Occasion-Based Feeds**: Wedding, Party, Office, College, and more
+- **Interactive Experience**: Like, save, share, and shop outfits seamlessly
+- **Responsive Design**: Beautiful UI optimized for both mobile and desktop
+
+## 🎨 Tech Stack
+
+- **Framework**: Next.js 15 (App Router)
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Images**: Next.js Image Optimization
+- **Animations**: Custom CSS animations with smooth transitions
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+ installed
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/SubodhSenpai/trendora.git
+cd trendora
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Learn More
+## 📱 Pages
 
-To learn more about Next.js, take a look at the following resources:
+- **Home** (`/`) - Landing page with features, how it works, and testimonials
+- **Swipe** (`/swipe`) - TikTok-style vertical swipe experience
+- **Features** (`/features`) - Detailed feature showcase
+- **About** (`/about`) - Company information
+- **Download** (`/download`) - App download page
+- **Contact** (`/contact`) - Contact form
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Key Highlights
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **7+ Curated Outfits** with detailed shopping items
+- **TikTok-Inspired UI** with smooth animations
+- **YouTube Shorts-Style Text** for mobile optimization
+- **Pastel Color Scheme** (BFDCE5, F3F1F5, E1CCEC)
+- **Professional Icons** using Lucide React
+- **Fully Responsive** for all screen sizes
 
-## Deploy on Vercel
+## 🛠️ Development
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+# Run development server
+npm run dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Build for production
+npm run build
+
+# Start production server
+npm start
+
+# Run linter
+npm run lint
+```
+
+## 📦 Deployment
+
+Deploy easily on [Vercel](https://vercel.com):
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/SubodhSenpai/trendora)
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+---
+
+Made with ❤️ by Subodh
