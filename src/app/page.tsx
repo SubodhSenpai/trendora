@@ -205,6 +205,9 @@ export default function Home() {
             <a href="#occasions" className="text-sm font-medium text-gray-600 transition-colors hover:text-[#8B5FBF]">
               Occasions
             </a>
+            <Link href="/blog" className="text-sm font-medium text-gray-600 transition-colors hover:text-[#8B5FBF]">
+              Blog
+            </Link>
             <Link href="/about" className="text-sm font-medium text-gray-600 transition-colors hover:text-[#8B5FBF]">
               About
             </Link>
@@ -770,7 +773,7 @@ export default function Home() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/about" className="text-xs text-gray-600 transition-colors hover:text-[#8B5FBF] sm:text-sm">
+                    <Link href="/blog" className="text-xs text-gray-600 transition-colors hover:text-[#8B5FBF] sm:text-sm">
                       Blog
                     </Link>
                   </li>
